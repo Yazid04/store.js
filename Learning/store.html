@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="store.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <section class="navBar-Container">
+            <div class="black-blank"></div>
+            <main class="nav-content-container">
+                <div class="categoryBtns">
+                    <div class="nav-options" data-id="Home"><a href="#">Home</a></div>
+                    <div class="nav-options" data-id="Tech"><a href="#">Tech</a></div>
+                    <div class="nav-options" data-id="Clothes"><a href="#">Clothes</a></div>
+                </div>
+                <div class="nav_cart-Contianer">
+                    <div class="cartBtn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div class="cartList">
+                        
+                    </div>
+                </div>
+            </main>
+        </section>
+        <section class="content-section" id="content">
+            <main class="item-container">
+                <div class="item-price-container">
+                    <div class="heart-icon"></div>
+                    <div class="price">$50</div>
+                </div>
+                <div class="item-img" id="test">
+                    <img src="imgs/img-item-removebg-preview.png" alt="jacket image">
+                </div>
+                <div class="item-info_cart-Container">
+                    <div class="item-info">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum natus aut, animi accusamus
+                            earum temporibus.</h5>
+                    </div>
+                    <div class="addToCartBtn">
+                        <button class="btns" type="button"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </main>
+    <div class="totalPriceContainer">
+        <h2 class="greeting">Thanks for visiting our Store!</h2>
+        <button type="submit" class="totalPrice">Calculate your total</button>
+    </div>
+    <script src="store.js" defer></script>
+</body>
+
+</html>
